@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"BikoBold56"
-		"fgcolour"		"255 255 255 255"
+		"fgcolor"		"255 255 255 255"	
 	}
 	"MedicBG"
 	{
@@ -74,7 +74,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"BikoBold56"
+		"fgcolor"		"White_tf2hud"
 	}
 	
 	"ChargeMeter"
@@ -94,6 +95,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"		"0 255 255 255"
+		"bgcolor_override"		"0 0 0 155"
 	}		
 
 	"ChargeMeter1"
