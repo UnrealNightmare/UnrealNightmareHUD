@@ -7,20 +7,23 @@
 		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"250"
-		"tall"			"250"
+		"wide"			"90"
+		"tall"			"45"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/ammo_blue_bg"
 		"scaleImage"	"1"	
-		
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_3"		"../hud/ammo_blue_bg"
 	}
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
 		"xpos"			"4"
+		"xpos_minmode"	"28"
 		"ypos"			"0"
+		"ypos_minmode"	"7"
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
@@ -28,7 +31,22 @@
 		"enabled"		"0"
 		"image"			"../hud/ammo_red_bg"
 		"scaleImage"	"1"	
-			
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_3"		"../hud/ammo_blue_bg"
+	}
+	"AmmoBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoBG"
+		"xpos"			"5"
+		"ypos"			"4"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
+	"draw_corner_height" 	"0"	
 	}
 	"AmmoInClip"
 	{
@@ -54,12 +72,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"HudFontGiantBold"
+		"font"			"BikoBold56"
 		"fgcolor"		"Black"
 		"xpos"			"5"
-		"xpos_hidef"	"2"
 		"ypos"			"1"
-		"ypos_hidef"	"2"
 		"ypos_lodef"	"2"
 		"zpos"			"5"
 		"wide"			"500"
@@ -87,15 +103,14 @@
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
 	}		
-	}		
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"HudFontMediumSmall"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"60"
-		"ypos"			"9"
+		"xpos"			"63"
+		"ypos"			"-31"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"27"
@@ -103,18 +118,15 @@
 		"enabled"		"1"
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
-	}									
-	
-	
-	
+	}										
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
 		"font"			"BikoBold56"
-		"fgcolor"		"0 255 255 255"
-		"xpos"			"100"
-		"ypos"			"64"
+		"fgcolor"		"255 0 255 255"
+		"xpos"			"10"
+		"ypos"			"8"
 		"zpos"			"5"
 		"wide"			"84"
 		"tall"			"40"
@@ -130,8 +142,8 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"1"
-		"ypos"			"3"
+		"xpos"			"999999"
+		"ypos"			"999999999"
 		"zpos"			"5"
 		"wide"			"84"
 		"tall"			"40"

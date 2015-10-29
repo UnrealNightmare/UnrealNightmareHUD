@@ -1,6 +1,21 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
+	
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"60"
+		"ypos"			"30"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"65"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
+	"draw_corner_height" 	"0"	
+	}
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -48,7 +63,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"50"	[$WIN32]
+		"xpos"			"40"	[$WIN32]
 		"ypos"			"50"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"25"	[$WIN32]
